@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Learning Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">E-Learn</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to E-Learn</h1>
+            <p>Empower your future with online courses</p>
+            <button onclick="scrollToSection('courses')">Explore Courses</button>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We offer a wide range of courses to help you achieve your educational goals.</p>
+    </section>
+
+    <section id="courses">
+        <h2>Our Courses</h2>
+        <div class="course-list">
+            <div class="course">
+                <h3>Web Development</h3>
+                <p>Learn HTML, CSS, and JavaScript to build stunning websites.</p>
+            </div>
+            <div class="course">
+                <h3>Data Science</h3>
+                <p>Master data analysis, visualization, and machine learning techniques.</p>
+            </div>
+            <div class="course">
+                <h3>Digital Marketing</h3>
+                <p>Grow your brand and reach more customers through digital marketing.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 E-Learn. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
